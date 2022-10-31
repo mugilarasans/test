@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Sample = require("../model/sample")
+const Sample = require("../model/test")
 
 router.post("/sample", async(req, res)=>{
     try{
